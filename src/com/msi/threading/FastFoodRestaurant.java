@@ -5,6 +5,7 @@ public class FastFoodRestaurant {
     private int numberOfBurgerSold;
 
     public void buyBurger(String clientName) {
+        alongRunningProcess();
         this.lastClientName = clientName;
         numberOfBurgerSold++;
         System.out.println(clientName + " bought a burger");
